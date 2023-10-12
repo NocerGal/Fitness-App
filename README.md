@@ -1,8 +1,20 @@
-# React + Vite
+##Featly
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---------------------------------------------------------------------------------------
 
-Currently, two official plugins are available:
+Après avoir cloner le projet : -selectionner votre branche
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+                               -installer vite : npm install vite
+
+                               -lancer le serveur de developpement vite : npm run dev
+
+---------------------------------------------------------------------------------------
+
+
+12/10/2023 -
+
+Add & config react-router-dom
+Add & config sass
+Add & config react-helmet
+
+Add favicon.png in /public
