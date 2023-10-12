@@ -1,3 +1,9 @@
+//Config
+
 @import './config/normalize.scss';
 @import './config/variables.scss';
-@import './config/mixin.scss'
+@import './config/mixin.scss';
+
+//Layout
+
+@import './layout/header.scss'

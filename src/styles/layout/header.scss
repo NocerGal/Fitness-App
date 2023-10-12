@@ -1,0 +1,31 @@
+.header {
+    @include width-center;
+    @include font-normal-green;
+    color: $priColor;
+    font-family: $fontFamily;
+    padding-top: 15px;
+}
+
+.headerCtn {
+@include flex-row-link;
+justify-content: space-between;
+        li:hover{
+            scale: 1.1;
+        }
+        ul{
+            @include flex-row-link;
+            list-style-type: none;
+
+        }
+        img{
+            margin-left: -15px;
+            width: 150px;
+        }
+}
+
+
+
+.active {
+    border-bottom: 2px solid $priColor;
+  }
+  

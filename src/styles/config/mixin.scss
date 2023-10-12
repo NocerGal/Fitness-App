@@ -1,0 +1,24 @@
+//width / height
+@mixin width-center {
+    width: 90%;
+    margin: 0 auto;
+}
+
+//font
+
+@mixin font-normal-green {
+    font-style: normal;
+    font-weight: 500;
+    color: $priColor;
+    font-family: $fontFamily;
+}
+
+//flex
+
+@mixin flex-row-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 2.5vw;
+}
